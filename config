@@ -1,0 +1,5 @@
+
+Host outdoors-station-collaboration-delete.trycloudflare.com
+  User root
+  Port 22
+  ProxyCommand "C:\Program Files (x86)\cloudflared\cloudflared.exe" access ssh --hostname %h
